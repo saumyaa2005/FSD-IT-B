@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.navbar {
+    background: #003366;
+    color: white;
+    padding: 15px;
+}
+
+.logo {
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 150px;
+    background: #ddd;
+    padding: 20px;
+}
+
+.main {
+    padding: 20px;
+}
+
+.college-logo {
+    width: 80px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 300px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+}
+
+#output {
+    margin-top: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FS Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+    <div class="logo">ABESEC</div>
+</nav>
+
+<!-- SIDEBAR -->
+<div class="container">
+    <aside class="sidebar">
+        Home
+    </aside>
+
+    <!-- MAIN -->
+    <main class="main">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSZVBdSn-1xDcTSccAw3D6ISpSIP07nzFcQA&s" class="college-logo">
+
+        <h1>
+            <input type="text" id="textInput" placeholder="Enter file content here">
+        </h1>
+
+        <div class="buttons">
+            <button onclick="writeFile()">FS Create / Write</button>
+            <button onclick="readFile()">FS Read</button>
+        </div>
+
+        <p id="output"></p>
+    </main>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
